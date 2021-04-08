@@ -21,3 +21,7 @@ http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal url script-request-
 https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
 
 https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
+
+^https?:\/\/.*\/mobile\-user\/homePage\/.* url script-response-body ximalaya.cookie.js
+
+^https?:\/\/.*\/mobile\-user\/homePage\/.* url script-request-header ximalaya.cookie.js
