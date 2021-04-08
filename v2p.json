@@ -219,15 +219,6 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
       }
-    },
-    {
-      "name": "喜马拉雅",
-      "type": "cron",
-      "time": "1 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js"
-      }
     }
   ]
 }
