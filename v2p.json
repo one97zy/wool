@@ -12,6 +12,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/lhws.js"
       }
+    }, 
     {
       "name": "京东母婴跳一跳2期",
       "type": "cron",
@@ -236,7 +237,6 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js"
       }
-    },
-
+    }
   ]
 }
