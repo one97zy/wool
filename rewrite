@@ -1,4 +1,4 @@
-http-request ^https?://ios\.baertt\.com/v5/article/complete url script-request-header https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
+^https?://ios\.baertt\.com/v5/article/complete url script-request-header https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 
 ^https?://ios\.baertt\.com/v5/user/app_stay\.json url script-request-header https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 
