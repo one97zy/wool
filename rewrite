@@ -1,10 +1,20 @@
 hostname = kd.youth.cn, ios.baertt.com , www.xiaodouzhuan.cn , 
 
-https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+http-request ^https?://ios\.baertt\.com/v5/article/complete script-path=https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 
-https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+^https?://ios\.baertt\.com/v5/user/app_stay\.json script-path=https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 
-https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+^https?://\w+\.youth\.cn/(TaskCenter|WebApi/NewTaskIos)/(sign|getSign)(\?.+)?$ script-path=https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
+
+^https?://ios\.baertt\.com\/v5\/task/browse_start\.json script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
+
+^https?://ios\.baertt\.com/v5/Nameless/adlickstart\.json script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
+
+^https://kd\.youth\.cn/WebApi/NewTaskIos/getTaskList script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
+
+^https?://ios\.baertt\.com/v5/user/app_stay\.json script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
+
+^https?://ios\.baertt\.com/v5/article/info/get\.json script-path=https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 
 https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json url script-request-body https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js
 
