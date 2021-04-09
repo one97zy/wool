@@ -176,15 +176,6 @@
       }
     },
     {
-      "name": "中青看点看看赚&浏览赚(需配合专用重写获取cookie)",
-      "type": "cron",
-      "time": "30 6 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-      }
-    },
-    {
       "name": "聚看点",
       "type": "cron",
       "time": "*/10 */3 * * *",
@@ -194,30 +185,30 @@
       }
     },
     {
-      "name": "中青浏览赚",
-      "type": "cron",
-      "time": "20 5 10 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js"
-      }
-    },
-    {
       "name": "中青自动阅读",
       "type": "cron",
-      "time": "20 15 */2 * * *",
+      "time": "8/30 * 1-6 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js"
+        "target": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js"
+      }
+    },
+     {
+      "name": "中青看点看看赚&浏览赚(需配合专用重写获取cookie)",
+      "type": "cron",
+      "time": "30 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
       }
     },
     {
       "name": "中青看点极速版",
       "type": "cron",
-      "time": "20 11 8 * * *",
+      "time": "15/30 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
+        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
       }
     }
   ]
