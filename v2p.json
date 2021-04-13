@@ -202,6 +202,15 @@
         "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
       }
     },
+  {
+      "name": "中青看点极速版",
+      "type": "cron",
+      "time": "*/10 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
+      }
+    },
     {
       "name": "千禾阅读)",
       "type": "cron",
@@ -211,17 +220,8 @@
         "target": "https://raw.githubusercontent.com/age174/-/main/qhyd.js"
       }
     },
-    {
-      "name": "中青看点极速版",
-      "type": "cron",
-      "time": "*/10 * * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
-      }
-    },
      {
-      "name": "滴滴打车)",
+      "name": "滴滴打车",
       "type": "cron",
       "time": "0 9 * * *",
       "job": {
