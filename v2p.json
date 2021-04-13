@@ -232,7 +232,7 @@
      {
       "name": "萌猫无限刷",
       "type": "cron",
-      "time": "0 0 1 1",
+      "time": "* */3 * * *",
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/mmdzz.js"
