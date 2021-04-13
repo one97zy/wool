@@ -228,6 +228,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/didi.js"
       }
+    },
+     {
+      "name": "萌猫无限刷",
+      "type": "cron",
+      "time": "0 0 1 1",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/mmdzz.js"
+      }
     }
   ]
 }
