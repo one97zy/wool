@@ -219,6 +219,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
       }
+    },
+     {
+      "name": "滴滴打车)",
+      "type": "cron",
+      "time": "0 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/didi.js"
+      }
     }
   ]
 }
