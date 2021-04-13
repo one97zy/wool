@@ -203,6 +203,15 @@
       }
     },
     {
+      "name": "千禾阅读)",
+      "type": "cron",
+      "time": "35 9-22 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/qhyd.js"
+      }
+    },
+    {
       "name": "中青看点极速版",
       "type": "cron",
       "time": "*/10 * * * *",
