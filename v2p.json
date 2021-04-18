@@ -121,15 +121,6 @@
         "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js"
       }
     },  
-    {
-      "name": "阳光果园(需实名)",
-      "type": "cron",
-      "time": "0 */1 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/yggy.js"
-      }
-    },  
      {
       "name": "返利网",
       "type": "cron",
