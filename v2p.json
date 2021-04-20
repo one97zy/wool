@@ -4,15 +4,6 @@
   "desc": "该订阅仅适用于 elecV2P，与其他软件并不兼容。Q群102901422",
   "date": "2021-04-09 03:41:02",
   "list": [
-    {
-      "name": "落花无生",
-      "type": "cron",
-      "time": "0 9,13 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/lhws.js"
-      }
-    }, 
      {
       "name": "文创阅读",
       "type": "cron",
@@ -40,15 +31,6 @@
         "target": "https://raw.githubusercontent.com/age174/-/main/yqzh.js"
       }
     },
-    {
-      "name": "最强蜗牛",
-      "type": "cron",
-      "time": "10 8 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/zqwn.js"
-      }
-    }, 
     {
       "name": "朗果英语",
       "type": "cron",
@@ -131,7 +113,7 @@
       }
     },
     {
-      "name": "番茄看看",
+      "name": "番茄看看(还在测试请勿使用)",
       "type": "cron",
       "time": "15 12,14,16,20 * * *",
       "job": {
@@ -178,7 +160,7 @@
     {
       "name": "中青自动阅读",
       "type": "cron",
-      "time": "10 * * * *",
+      "time": "*/30 9-18 * * *",
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js"
