@@ -24,14 +24,10 @@ https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list ur
 
 https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
 
-https://api.lhws.info/lhws/api/member/list/ad/new url script-request-body https://raw.githubusercontent.com/age174/-/main/lhws.js
-
 ^http://m.*./reada/getTask url script-request-header https://raw.githubusercontent.com/age174/-/main/fqkk.js
 
 http://mbeysxap.bar/hfTask/startRead url script-request-header https://raw.githubusercontent.com/age174/-/main/wcyd.js
 
-https://play.gxhuancai.com/hlplay/task/doTasks url script-request-header https://raw.githubusercontent.com/age174/-/main/hlyy.js
-https://xxlapi.higaoyao.com:553/game/v1/index/addRedRoll url script-request-body https://raw.githubusercontent.com/age174/-/main/mmdzz.js
 ^http://wechat04\.yqzh\.libcloud\.cn/\? url script-request-header https://raw.githubusercontent.com/age174/-/main/yqzh.js
 
 http://wn.xingguozuliao.com/login/login2/hydata.html url script-request-body https://raw.githubusercontent.com/age174/-/main/zqwn.js
