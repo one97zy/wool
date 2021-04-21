@@ -86,15 +86,6 @@
       }
     },  
     {
-      "name": "春风转",
-      "type": "cron",
-      "time": "*/30 8-22 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/cfz.js"
-      }
-    }, 
-    {
       "name": "腾讯自选股",
       "type": "cron",
       "time": "30 16 * * *",
