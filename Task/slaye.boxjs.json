@@ -508,44 +508,6 @@
       "https://raw.githubusercontent.com/58xinian/icon/master/chsp.png"
     ]
   },
-  {
-    "id": "txstockapp",
-    "name": "自选羊毛股",
-    "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cash","cashheader"],
-    "settings": [
-      {
-        "id": "cash",
-        "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
-        "val": "",
-        "type": "number",
-        "desc": "默认为0,不自动提现"
-      }
-    ],
-    "author": "@cenbomin",
-    "repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
-    "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js",
-    "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png","https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"
-    ]
-  },
-  {
-    "id": "wlapp",
-    "name": "一毛看点",
-    "keys": ["getdomainbody", "getdomainkey", "userloginbody", "userloginkey", "artlistbody", "artlistkey", "artstationurl", "artstationkey", "readaccountbody", "readaccountkey", "infomebody", "infomekey", "videoartlistbody", "videoartlistkey", "videoreadaccountbody", "videoreadaccountkey", "artdetailbody", "artdetailkey"],
-    "settings": [
-      {
-        "id": "cash",
-        "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
-        "val": "",
-        "type": "number",
-        "desc": "默认为0,不自动提现"
-      }
-    ],
-    "author": "@cenbomin",
-    "repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
-    "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlapp.js",
-    "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/IMG_1069.JPG","https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/IMG_1068.JPG"
-    ]
-  },
     {
       "author": "@sunert", 
       "keys": [
@@ -604,7 +566,53 @@
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/jukan_mini.png", 
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/jukan.png"
       ]
-    },  
+    },
+    {
+            "id": "lgyy",
+            "name": "朗果英语",
+            "keys": ["lgyyurl", "lgyyhd", "lgyybody", "lgyyurl2", "lgyyhd2", "lgyybody2","lgyyurl3", "lgyyhd3", "lgyybody3","lgyyurl4", "lgyyhd4", "lgyybody4","lgyyurl5", "lgyyhd5", "lgyybody5","lgyyurl6", "lgyyhd6", "lgyybody6","lgyyurl7", "lgyyhd7", "lgyybody7","lgyyurl8", "lgyyhd8", "lgyybody8","lgyyurl9", "lgyyhd9", "lgyybody9","lgyyurl10", "lgyyhd10", "lgyybody10","lgyyurl11", "lgyyhd11", "lgyybody11"],
+            "author": "@feizao",
+            "settings": [{
+            "id": "lgyystatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "lgyycount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "https://github.com/age174/-/blob/main/lgyy.js",
+            "icons": ["https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg", "https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/lgyy.js"
+    } ,
+    {
+            "id": "ximei",
+            "name": "西梅",
+            "keys": ["ximeiurl", "ximeihd", "ximeiurl2", "ximeihd2","ximeiurl3", "ximeihd3","ximeiurl4", "ximeihd4","ximeiurl5", "ximeihd5","ximeiurl6", "ximeihd6","ximeiurl7", "ximeihd7","ximeiurl8", "ximeihd8","ximeiurl9", "ximeihd9","ximeiurl10", "ximeihd10","ximeiurl11", "ximeihd11","ximeiurl12", "ximeihd12"],
+            "author": "@feizao",
+            "settings": [{
+            "id": "ximeistatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "ximeicount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "https://github.com/age174/-/blob/main/ximei.js",
+            "icons": ["https://ae01.alicdn.com/kf/Ucd02ea79ef22473daf3576486d134509Q.jpg", "https://ae01.alicdn.com/kf/Ucd02ea79ef22473daf3576486d134509Q.jpg"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/ximei.js"
+    } ,  
     {
       "author": "@sunert", 
       "keys": [
