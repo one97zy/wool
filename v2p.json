@@ -4,33 +4,6 @@
   "desc": "该订阅仅适用于 elecV2P，与其他软件并不兼容。Q群102901422 博客slaye.cn",
   "date": "2021-04-21 8:48:02",
   "list": [
-     {
-      "name": "文创阅读",
-      "type": "cron",
-      "time": "0-59 9-22 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/wcyd.js"
-      }
-    }, 
-    {
-      "name": "葫芦音乐",
-      "type": "cron",
-      "time": "0,30 8-23 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/hlyy.js"
-      }
-    }, 
-    {
-      "name": "悦趣阅读",
-      "type": "cron",
-      "time": "30 10 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/yqzh.js"
-      }
-    },
     {
       "name": "朗果英语",
       "type": "cron",
@@ -49,24 +22,6 @@
         "target": "https://raw.githubusercontent.com/age174/-/main/ximei.js"
       }
     }, 
-    {
-      "name": "66阅读",
-      "type": "cron",
-      "time": "5,35 9-22 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/66yd.js"
-      }
-    },   
-    {
-      "name": "微客众智",
-      "type": "cron",
-      "time": "25,55 1,5,9-22 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/wkzz.js"
-      }
-    },  
     {
       "name": "书旗小说ziye版",
       "type": "cron",
@@ -101,24 +56,6 @@
       "job": {
         "type": "runjs",
         "target": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js"
-      }
-    },
-    {
-      "name": "番茄看看(还在测试请勿使用)",
-      "type": "cron",
-      "time": "15 12,14,16,20 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/fqkk.js"
-      }
-    },
-    {
-      "name": "云扫码",
-      "type": "cron",
-      "time": "15 */4 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/ysm.js"
       }
     },
     {
@@ -173,15 +110,6 @@
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
-      }
-    },
-    {
-      "name": "千禾阅读",
-      "type": "cron",
-      "time": "35 9-22 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/age174/-/main/qhyd.js"
       }
     },
      {
