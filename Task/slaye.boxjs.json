@@ -1,9 +1,9 @@
 {
-  "id": "Slaye.sub",
-  "name": "Slaye自用订阅",
-  "author": "@沙拉野人",
-  "icon": "https://avatars3.githubusercontent.com/u/52337422?s=460&u=0aa6057c2af304d742d20b3b865c34f2902ad5c1&v=4",
-  "repo": "https://github.com/aouyyy",
+  "id": "sunert.app.sub", 
+  "author": "@Sunert", 
+  "icon": "https://avatars2.githubusercontent.com/u/47924389?s=460&u=5152f048a9e8aaa45102763a578172407c40fcc8&v=4", 
+  "name": "Sunert 签到应用订阅", 
+  "repo": "https://github.com/Sunert/Scripts/tree/master", 
   "apps": [{
       "id": "youthCk",
       "name": "中青数据",
