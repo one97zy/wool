@@ -647,7 +647,40 @@
       "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo.js",
       "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkd.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkd.png"
       ]
-    },  
+    },
+    {
+      "id": "runstep",
+      "name": "不走会亏钱",
+      "keys": ["version", "runsteptoken", "runstepkey", "txtoken", "txkey","wxtxtoken", "runsteptoken2", "runstepkey2", "txtoken2", "txkey2","wxtxtoken2", "runsteptoken3", "runstepkey3", "txtoken3", "txkey3","wxtxtoken3", "runsteptoken4", "runstepkey4", "txtoken4", "txkey4","wxtxtoken4", "runsteptoken5", "runstepkey5", "txtoken5", "txkey5","wxtxtoken5", "runsteptoken6", "runstepkey6", "txtoken6", "txkey6","wxtxtoken6", "runsteptoken7", "runstepkey7", "txtoken7", "txkey7","wxtxtoken7"],
+      "settings": [
+        {
+          "id": "version",
+          "name": "APP版本号:更新软件,请更改。",
+          "val": "",
+          "type": "text",
+          "desc": "默认1.5.1,更新APP软件,请更改。"
+        },
+        {
+          "id": "runstepSuffix",
+          "name": "当前抓取ck账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+        },
+        {
+          "id": "runstepCount",
+          "name": "脚本执行账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        }
+      ],
+      "author": "@cenbomin",
+      "repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
+      "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/runstep.js",
+      "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/runstep120X120.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/runstep120X120.png"
+      ]
+    }  
     {
       "author": "@sunert", 
       "keys": [
