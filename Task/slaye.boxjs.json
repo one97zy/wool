@@ -707,26 +707,6 @@
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed_mini.png", 
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed.png"
       ]
-    }, 
-    {
-      "author": "@sunert", 
-      "keys": [
-        "sy_signurl_txnews", 
-        "sy_cookie_txnews", 
-        "video_txnews", 
-        "txnews_id"
-      ], 
-      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js", 
-      "id": "txnews", 
-      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js", 
-      "settings": [
-        {
-          "id": "notifynum", 
-          "placeholder": "默认50 (点击以展开说明)", 
-          "val": "", 
-          "name": "通知频率", 
-          "type": "number", 
-          "desc": "阅读篇数间隔通知开为1，常关为0(默认50篇)"
-        }
-  ]
-}
+    }
+    ]
+    }
