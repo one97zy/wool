@@ -75,3 +75,5 @@ https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdeli
 https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js
 //西梅
 https://app.hubonews.com/.+/articles/list url script-request-body https://raw.githubusercontent.com/age174/-/main/ximei.js
+//郎果英语
+http://api.langooo.com/task/daily/taskList url script-request-body https://raw.githubusercontent.com/age174/-/main/lgyy.js
