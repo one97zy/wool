@@ -147,6 +147,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/skjh.js"
       }
+    },
+             {
+      "name": "食客江湖",
+      "type": "cron",
+      "time": "5,35 9-22 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/66yd.js"
+      }
     }
   ]
 }
