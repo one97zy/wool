@@ -85,3 +85,5 @@ https://www.qianhe5.com/ url script-request-header https://raw.githubusercontent
 https://www.*com/read/v1/get_time_list url script-request-body https://raw.githubusercontent.com/age174/-/main/qhyd.js
 //全民悦动
 https:\/\/qmyd\.yichengw\.cn\/* url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qmyd.js
+#食客江湖阅读
+https://www.shikeshijie.com/api/task/done url script-request-header https://raw.githubusercontent.com/age174/-/main/skjh.js
