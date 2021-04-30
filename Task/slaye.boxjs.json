@@ -754,29 +754,6 @@
             "script": "https://raw.githubusercontent.com/age174/-/main/66yd.js"
     },
     {
-            "id": "xfyjc",
-            "name": "幸福养鸡场",
-            "keys": ["xfyjchd"],
-            "author": "@feizao",
-            "settings": [{
-            "id": "xfyjcstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前账号对应"
-    },
-    {
-            "id": "xfyjccount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "需要几个账号，数字为几"
-    }],
-            "repo": "https://github.com/age174/-/blob/main/xfyjc.js",
-            "icons": ["https://ae01.alicdn.com/kf/Ue110888eddad48a8a78d99284e599b134.jpg", "https://ae01.alicdn.com/kf/Ue110888eddad48a8a78d99284e599b134.jpg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/xfyjc.js"
-    } ,
-    {
       "id": "runstep",
       "name": "不走会亏钱",
       "keys": ["version", "runsteptoken", "runstepkey", "txtoken", "txkey","wxtxtoken", "runsteptoken2", "runstepkey2", "txtoken2", "txkey2","wxtxtoken2", "runsteptoken3", "runstepkey3", "txtoken3", "txkey3","wxtxtoken3", "runsteptoken4", "runstepkey4", "txtoken4", "txkey4","wxtxtoken4", "runsteptoken5", "runstepkey5", "txtoken5", "txkey5","wxtxtoken5", "runsteptoken6", "runstepkey6", "txtoken6", "txkey6","wxtxtoken6", "runsteptoken7", "runstepkey7", "txtoken7", "txkey7","wxtxtoken7"],
