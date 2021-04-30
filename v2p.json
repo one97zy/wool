@@ -148,13 +148,22 @@
         "target": "https://raw.githubusercontent.com/age174/-/main/skjh.js"
       }
     },
-             {
+           {
       "name": "幸福养鸡场",
       "type": "cron",
       "time": "10,20,30 0-23 * * *",
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/xfyjc.js"
+      }
+    },
+                 {
+      "name": "火狐看看",
+      "type": "cron",
+      "time": "2 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js"
       }
     },
              {
