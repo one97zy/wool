@@ -93,4 +93,5 @@ http://.*v4/user/get_user_task? url script-request-header https://raw.githubuser
 https://bp-api.coohua.com/bubuduo-xfyjc/task/getHomePageTask url script-request-header https://raw.githubusercontent.com/age174/-/main/xfyjc.js
 #火狐看看
 https://api.mozillacoin.com/main/main? url script-request-body https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js
-
+//番茄小说
+luckycat/novel/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js
