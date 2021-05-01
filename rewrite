@@ -97,3 +97,6 @@ https://api.mozillacoin.com/main/main? url script-request-body https://raw.githu
 luckycat/novel/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js
 #淘优购
 https://shop.taoyougou.cc/api/ url script-request-header https://raw.githubusercontent.com/age174/-/main/tyg.js
+//花园
+https://bp-api.coohua.com/bubuduo-kxhy/game/plant url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js
+
