@@ -100,9 +100,7 @@
       "time": "*/30 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js
-
-"
+        "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js”
       }
     },
      {
