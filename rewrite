@@ -15,7 +15,7 @@
 
 ^https?://ios\.baertt\.com/v5/article/info/get\.json url script-request-header https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 //聚看点
-https:\/\/www\.xiaodouzhuan\.cn\/jkd\/newMobileMenu\/infoMe\.action url script-request-body https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js
+https:\/\/www\.xiaodouzhuan\.cn\/jkd\/newMobileMenu\/infoMe\.action url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/jukan.js
 //多看点（姐姐版）
 https://dkd-api.dysdk.com/video/red_countdown url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js
 
