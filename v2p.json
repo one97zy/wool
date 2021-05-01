@@ -95,12 +95,14 @@
       }
     },
     {
-      "name": "多看点",
+      "name": "开心花园",
       "type": "cron",
-      "time": "*/12 * * * *",
+      "time": "*/30 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo.js"
+        "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js
+
+"
       }
     },
      {
