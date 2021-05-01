@@ -183,6 +183,16 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/66yd.js"
       }
+    },
+
+{
+      "name": "抖音极速版",
+      "type": "cron",
+      "time": "5 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js"
+      }
     }
   ]
 }
