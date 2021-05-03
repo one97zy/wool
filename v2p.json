@@ -210,7 +210,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/dgh.js"
       }
+    },
+{
+      "name": "状元/老婆（二合一）",
+      "type": "cron",
+      "time": "*/5 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/qlp.js"
+      }
     }
-
   ] 
 }
