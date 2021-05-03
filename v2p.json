@@ -223,7 +223,7 @@
 {
       "name": "如意花园",
       "type": "cron",
-      "time": "*/30 * * * *",
+      "time": "*/15 * * * *",
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js"
