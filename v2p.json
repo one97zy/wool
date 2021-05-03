@@ -193,7 +193,6 @@
         "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js"
       }
     },
-
 {
       "name": "今日头条",
       "type": "cron",
@@ -202,6 +201,16 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
       }
+    },
+{
+      "name": "大公会",
+      "type": "cron",
+      "time": "35 10 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/dgh.js"
+      }
     }
+
   ] 
 }
