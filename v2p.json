@@ -219,8 +219,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/qlp.js"
       }
-    }，
-
+    },
 {
       "name": "如意花园",
       "type": "cron",
