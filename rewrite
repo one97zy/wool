@@ -110,3 +110,5 @@ luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.git
 https://api.51zcgj.com/v1/bead/receive url script-request-header https://raw.githubusercontent.com/age174/-/main/dgh.js
 //状元，娶老婆
 https://ibestfanli.com/commerce_coin_service/api/user/coin/addCoin url script-request-header https://raw.githubusercontent.com/age174/-/main/qlp.js
+//如意花园
+https://bp-api.coohua.com/bubuduo-ryhy/game/plant url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js
