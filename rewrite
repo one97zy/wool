@@ -106,3 +106,6 @@ luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.git
 //今日头条
 \/score_task\/v1\/task\/(sign_in|get_read_bonus) url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
 \/ttgame\/game_farm\/home_info url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
+//大公会
+https://api.51zcgj.com/v1/bead/receive url script-request-header https://raw.githubusercontent.com/age174/-/main/dgh.js
+
