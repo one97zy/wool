@@ -228,6 +228,16 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js"
        }
+    },
+
+{
+      "name": "食材大冲关",
+      "type": "cron",
+      "time": "40 8 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/scdcg.js"
+       }
     }
 
   ] 
