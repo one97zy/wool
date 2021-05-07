@@ -112,3 +112,7 @@ https://api.51zcgj.com/v1/bead/receive url script-request-header https://raw.git
 https://ibestfanli.com/commerce_coin_service/api/user/coin/addCoin url script-request-header https://raw.githubusercontent.com/age174/-/main/qlp.js
 //如意花园
 https://bp-api.coohua.com/bubuduo-ryhy/game/plant url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js
+#食材大冲关视频
+https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/scdcg.js
+#食材大冲关红包
+https://redbag.renyouwangluo.cn/api/redbag/normal url script-request-body https://raw.githubusercontent.com/age174/-/main/scdcg.js
