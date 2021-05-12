@@ -229,7 +229,6 @@
         "target": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js"
        }
     },
-
 {
       "name": "食材大冲关",
       "type": "cron",
@@ -238,7 +237,24 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/age174/-/main/scdcg.js"
        }
+    },
+    {
+      "name": "滴滴橙心果园",
+      "type": "cron",
+      "time": "10 0,8,12,18 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js"
+       }
+    },
+        {
+      "name": "简单天气",
+      "type": "cron",
+      "time": "5 0-23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/jdtq.js"
+       }
     }
-
   ] 
 }
