@@ -116,10 +116,6 @@ https://bp-api.coohua.com/bubuduo-ryhy/game/plant url script-request-header http
 https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/scdcg.js
 #食材大冲关红包
 https://redbag.renyouwangluo.cn/api/redbag/normal url script-request-body https://raw.githubusercontent.com/age174/-/main/scdcg.js
-#动物研究院
-10 9 * * * https://raw.githubusercontent.com/age174/-/main/dwyjy.js, tag=动物研究院, img-url=https://ae01.alicdn.com/kf/Uc740cff52d1c48c49223a8a7378a54d1q.jpg, enabled=true
-
-[rewrite_local]
 #动物研究院视频
 https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/dwyjy.js
 #动物研究院红包
