@@ -255,6 +255,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/jdtq.js"
        }
-    }
+    },
+            {
+      "name": "动物研究院",
+      "type": "cron",
+      "time": "10 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/dwyjy.js"
+       }
+    },
   ] 
 }
