@@ -120,3 +120,7 @@ https://redbag.renyouwangluo.cn/api/redbag/normal url script-request-body https:
 https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/dwyjy.js
 #动物研究院红包
 https://zoon.renyouwangluo.cn/api/redbag/normal url script-request-body https://raw.githubusercontent.com/age174/-/main/dwyjy.js
+//惊喜财富岛
+^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
