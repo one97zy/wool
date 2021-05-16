@@ -273,6 +273,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js"
        }
+    },
+                    {
+      "name": "我的网红店",
+      "type": "cron",
+      "time": "0-59 9-14 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/wdwhd.js"
+       }
     }
   ] 
 }
