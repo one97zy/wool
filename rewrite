@@ -103,9 +103,6 @@ https://bp-api.coohua.com/bubuduo-kxhy/game/plant url script-request-header http
 luckycat/aweme/v1/task/sign_in/detail? url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js
 luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js
 luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js
-//今日头条
-\/score_task\/v1\/task\/(sign_in|get_read_bonus) url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
-\/ttgame\/game_farm\/home_info url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
 //大公会
 https://api.51zcgj.com/v1/bead/receive url script-request-header https://raw.githubusercontent.com/age174/-/main/dgh.js
 //状元，娶老婆
@@ -128,3 +125,5 @@ https://zoon.renyouwangluo.cn/api/redbag/normal url script-request-body https://
 https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/wdwhd.js
 #我的网红店红包
 https://tinygame-api.beijingqianji.com/en/check/imp_callback url script-request-body https://raw.githubusercontent.com/age174/-/main/wdwhd.js
+\/score_task\/v1\/task\/(sign_in|get_read_bonus) url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
+\/ttgame\/game_farm\/home_info url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
