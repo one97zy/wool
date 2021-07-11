@@ -27,22 +27,6 @@ https://dkd-api.dysdk.com/money/withdraw_do? url script-request-body https://raw
 
 //转盘
 https://dkd-api.dysdk.com/lotto/index? url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js
-//葱花视频
-#body获取
-https:\/\/app\.kxp\.com\/video\/v1\/video\/complete url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
-
-https:\/\/app\.kxp\.com\/video\/v1\/video\/share url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
-
-
-https:\/\/app\.kxp\.com\/task\/v1\/task_center\/data url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
-
-https:\/\/app\.kxp\.com\/task\/v1\/task_center\/red url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
-
-https:\/\/app\.kxp\.com\/task\/v1\/task_center\/share_video_reward url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
-
-https://app.kxp.com/withdrawal/v2/wechat/exchange url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
-
-https://task.youth.cn/count2/callback? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
 //腾讯自选股
 
 https://wzq.tenpay.com/activity/page/welwareCenter/ url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
@@ -56,16 +40,10 @@ https://wzq.tenpay.com/cgi-bin/activity_usercenter.fcgi? url script-request-head
 https://zqact.tenpay.com/cgi-bin/open_stockinfo.fcgi? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
 
 https://zqact.tenpay.com/cgi-bin/shop.fcgi? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
-//悦动族获取TOKEN
-https:\/\/yuedongzu\.yichengw\.cn\/* url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yuedongzu.js
 //特仑苏获取ck
 https:\/\/xw\.mengniu\.cn\/grass\/Api\/TelunsuHandler\.ashx\?method\=GetMyPrize url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.js
 //聚看点
 https:\/\/www\.xiaodouzhuan\.cn\/jkd\/newMobileMenu\/infoMe\.action url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/jukan.js
-//不走会亏钱
-https://runstep.kujievip.com/welfare/center? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/cookie.js
-
-https://runstep.kujievip.com/runstep/myself? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/cookie.js
 //书旗小说
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 极速版视频 极速版签到视频 极速版阅读 极速版签到 极速版分享 极速版书城
 https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js
@@ -77,53 +55,11 @@ https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.j
 https://app.hubonews.com/.+/articles/list url script-request-body https://raw.githubusercontent.com/age174/-/main/ximei.js
 //郎果英语
 http://api.langooo.com/task/daily/taskList url script-request-body https://raw.githubusercontent.com/age174/-/main/lgyy.js
-//芝麻视频
-https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/zhima.js
-#千禾阅读个人信息和领取重写
-https://www.qianhe5.com/ url script-request-header https://raw.githubusercontent.com/age174/-/main/qhyd.js
-#千禾阅读任务重写
-https://www.*com/read/v1/get_time_list url script-request-body https://raw.githubusercontent.com/age174/-/main/qhyd.js
-//全民悦动
-https:\/\/qmyd\.yichengw\.cn\/* url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qmyd.js
-#食客江湖阅读
-https://www.shikeshijie.com/api/task/done url script-request-header https://raw.githubusercontent.com/age174/-/main/skjh.js
-//66阅读
-http://.*v4/user/get_user_task? url script-request-header https://raw.githubusercontent.com/age174/-/main/66yd.js
-//幸福养鸡场
-https://bp-api.coohua.com/bubuduo-xfyjc/task/getHomePageTask url script-request-header https://raw.githubusercontent.com/age174/-/main/xfyjc.js
-#火狐看看
-https://api.mozillacoin.com/main/main? url script-request-body https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js
-//番茄小说
-luckycat/novel/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js
-#淘优购
-https://shop.taoyougou.cc/api/ url script-request-header https://raw.githubusercontent.com/age174/-/main/tyg.js
-//花园
-https://bp-api.coohua.com/bubuduo-kxhy/game/plant url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js
-//抖音极速版
-luckycat/aweme/v1/task/sign_in/detail? url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js
-luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js
-luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js
-//大公会
-https://api.51zcgj.com/v1/bead/receive url script-request-header https://raw.githubusercontent.com/age174/-/main/dgh.js
-//状元，娶老婆
-https://ibestfanli.com/commerce_coin_service/api/user/coin/addCoin url script-request-header https://raw.githubusercontent.com/age174/-/main/qlp.js
-//如意花园
-https://bp-api.coohua.com/bubuduo-ryhy/game/plant url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js
-#食材大冲关视频
-https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/scdcg.js
-#食材大冲关红包
-https://redbag.renyouwangluo.cn/api/redbag/normal url script-request-body https://raw.githubusercontent.com/age174/-/main/scdcg.js
-#动物研究院视频
-https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/dwyjy.js
-#动物研究院红包
-https://zoon.renyouwangluo.cn/api/redbag/normal url script-request-body https://raw.githubusercontent.com/age174/-/main/dwyjy.js
 //惊喜财富岛
 ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 ^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 ^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-#我的网红店视频
-https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/ url script-request-body https://raw.githubusercontent.com/age174/-/main/wdwhd.js
-#我的网红店红包
-https://tinygame-api.beijingqianji.com/en/check/imp_callback url script-request-body https://raw.githubusercontent.com/age174/-/main/wdwhd.js
-\/score_task\/v1\/task\/(sign_in|get_read_bonus) url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
-\/ttgame\/game_farm\/home_info url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js
+#电视家获取header
+http://.+/api/v2/device/info url script-request-body https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js 
+#电视家获取url
+http://api.gaoqingdianshi.com/api/* url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js
